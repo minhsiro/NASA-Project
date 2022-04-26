@@ -1,0 +1,5 @@
+### client/package.json
+on Window machines:
+    "build": "set BUILD_PATH=../server/public&& react-scripts build",
+on Mac & Linux machines:
+    "build": "set BUILD_PATH=../server/public react-scripts build",
