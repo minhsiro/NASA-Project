@@ -1,0 +1,9 @@
+# get latest launch
+###
+GET https://api.spacexdata.com/v4/launches/latest HTTP/1.1
+
+
+# get all spaceX launches
+###
+GET https://api.spacexdata.com/v4/launches HTTP/1.1
+
