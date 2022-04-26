@@ -10,13 +10,9 @@
     "test": "npm test --prefix client && npm test --prefix server",
     "deploy": "npm run build --prefix client && npm start --prefix server",
     "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
-    "install": "npm install && npm install --prefix client && npm install --prefix server"
+    "install": "npm install --prefix client && npm install --prefix server"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.26.1",
-    "mongoose": "^6.2.10"
-  }
+  "license": "ISC"
 }
